@@ -6,6 +6,7 @@ namespace Practice1
     {
         static void Main(string[] args)
         {
+            //Get user infor and displayed it
             Console.WriteLine("What is you name? ");
             string name = Console.ReadLine();
             Console.WriteLine("What is your age? ");
@@ -14,7 +15,11 @@ namespace Practice1
             Console.WriteLine("What is your favorite color? ");
             string color = Console.ReadLine();
 
-            Console.WriteLine(name + " you are " + ageF + " and your favorite color is " + color);
+            Console.WriteLine(name);
+            Console.WriteLine(ageF);
+            Console.WriteLine(color);
+
+              
 
         }
     }
