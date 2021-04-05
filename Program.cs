@@ -16,9 +16,9 @@ namespace Practice1
             string color = Console.ReadLine();
 
             Console.WriteLine(name);
-            Console.WriteLine(age);
+            Console.WriteLine(ageF);
             Console.WriteLine(color); 
-
+            
               
 
         }
